@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from 'react'
+import Header from './components/Header'
+import HeroSection from './components/HeroSection'
+import ProjectsSection from './components/ProjectsSection'
+import AboutSection from './components/AboutSection'
+import SkillSection from './components/SkillSection'
+import ContactsSection from './components/ContactsSection'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Fragment>
+			<Header />
+			<main>
+				<HeroSection />
+				<ProjectsSection />
+				<AboutSection />
+				<SkillSection />
+				<ContactsSection />
+			</main>
+		</Fragment>
+	)
 }
 
-export default App;
+export default App

@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgb(18, 18, 18);
+    color: rgba(255, 255, 255, 0.87);
+    @apply text-base;
+    @apply font-normal;
+    text-rendering: optimizelegibility;
+    background-image: url('./assets/wave.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: scroll;
+  }
+
+  h1, h3 {
+    background: linear-gradient(45deg,#5658dd 0%,#3EE7B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+} 
+
+@layer components {
+  .btn {
+    @apply inline-flex text-base py-3 px-8 h-12 rounded-sm cursor-pointer justify-center text-center transition duration-150 font-medium;
+  }
+
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-600/90;
+  }
+
+  .btn-secondary {
+    background-color: #25282c;
+  }
+
+  .btn-secondary:hover {
+    background-color: #2a2d32;
+  }
+
+  .btn-small {
+    @apply py-1 px-6 h-8;
+  }
+
+  .bg-about-img {
+    @apply before:absolute before:inset-0 before:bg-cover before:bg-[url("./assets/Meteor.svg")] before:bg-no-repeat before:opacity-20;
+  }
 }
