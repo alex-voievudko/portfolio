@@ -23,7 +23,7 @@ const navSettings = [
 
 const Navigation = () => {
 	return (
-		<nav className='hidden relative z-50 md:flex md:flex-grow md:basis-0 item-center'>
+		<nav className='hidden relative z-50 lg:flex lg:flex-grow lg:basis-0 item-center'>
 			<div className=' md:flex md:gap-x-6 md:flex-grow justify-center'>
 				{navSettings.map((item) => (
 					<a

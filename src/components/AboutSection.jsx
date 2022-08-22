@@ -12,7 +12,7 @@ const AboutSection = () => {
 				<img
 					src={photoSmall}
 					alt=''
-					className='relative z-50 w-28 h-28 p-2 border-4 border-indigo-600 rounded-full'
+					className='relative z-30 w-28 h-28 p-2 border-4 border-indigo-600 rounded-full'
 				/>
 				<div className='relative z-50font-normal text-base max-w-2xl text-center'>
 					Hello! My name is{' '}

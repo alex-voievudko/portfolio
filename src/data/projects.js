@@ -13,7 +13,7 @@ export const projectList = [
 		title: 'World of Games',
 		description:
 			'This is an app that allows to view list of popular games and games developers. The app uses firebase auth for user registration and log in system and also RAWG API for fetching game and developers data.',
-		techStack: ['React.js', 'Material UI', 'Redux', 'Firebase'],
+		techStack: ['React.js', 'React Router', 'Material UI', 'Redux', 'Firebase'],
 		githubUrl: 'https://github.com/alex-voievudko/world-of-games-app',
 		demoUrl: 'https://630373690c37ff00a8b2348c--world-of-games.netlify.app/',
 	},

@@ -18,6 +18,9 @@ import npm from '../assets/icons/icons8-npm.svg'
 import mongodb from '../assets/icons/icons8-mongodb.svg'
 import firebase from '../assets/icons/icons8-firebase.svg'
 import graphql from '../assets/icons/icons8-graphql.svg'
+import reduxIcon from '../assets/icons/icons8-redux.svg'
+import reactRouteer from '../assets/icons/react-router.svg'
+import styledComponents from '../assets/icons/styled-components.svg'
 
 export const proficient = [
 	{
@@ -45,8 +48,20 @@ export const proficient = [
 		logo: react,
 	},
 	{
+		skill: 'Redux',
+		logo: reduxIcon,
+	},
+	{
+		skill: 'React Router',
+		logo: reactRouteer,
+	},
+	{
 		skill: 'Next.js',
 		logo: next,
+	},
+	{
+		skill: 'Styled Components',
+		logo: styledComponents,
 	},
 	{
 		skill: 'Ant Design',

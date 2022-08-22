@@ -25,6 +25,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  main {
+    position: relative;
+  }
 } 
 
 @layer components {
@@ -51,4 +55,9 @@
   .bg-about-img {
     @apply before:absolute before:inset-0 before:bg-cover before:bg-[url("./assets/Meteor.svg")] before:bg-no-repeat before:opacity-20;
   }
+
+}
+
+.mobile-nav {
+  background-color: rgb(18, 18, 18);
 }
