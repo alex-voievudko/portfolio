@@ -21,7 +21,7 @@ const AboutSection = () => {
 					but now I decided to change the direction of my carrier. Development
 					always has been my passion and hobby for more than 5 years since I
 					wrote the first script for my team to automate their work.
-					<br />I has spent a lot of time learning JavaScrip and React
+					<br />I have spent a lot of time learning JavaScrip and React
 					particularly and now I am looking for new opportunities to turn my
 					hobby into the real job.
 				</div>

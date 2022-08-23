@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import photo from '../assets/photo-1.jpeg'
-import resume from '../assets/Resume-Alex-Voievudko.pdf'
+import resume from '../assets/Alex-Voievudko-Resume.pdf'
 import BaseSection from './BaseSection'
 import Button from './Button'
 import AnimatedText from './AnimatedText'
@@ -24,7 +24,7 @@ const HeroSection = () => {
 							I design and code beautifully simple things, and I love what I do.
 						</p>
 						<div className='flex flex-row justify-center md:justify-start gap-4 md:gap-6'>
-							<Button variant='primary' link={resume}>
+							<Button variant='primary' link={resume} traget='_blank'>
 								Resume
 							</Button>
 							<Button

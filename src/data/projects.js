@@ -1,6 +1,6 @@
 export const projectList = [
 	{
-		img: 'https://raw.githubusercontent.com/alex-voievudko/budget-app/main/screenshots/budget-app-screenshot.png',
+		img: 'https://raw.githubusercontent.com/alex-voievudko/portfolio/main/src/assets/Demo_budget.gif',
 		title: 'Budget App',
 		description:
 			'This is a simple budget app that allows to create different kind of budget categories and track your expenses.',
@@ -24,6 +24,6 @@ export const projectList = [
 			'This is my personal portfolio build with React and Tailwind Css',
 		techStack: ['React.js', 'Tailwind CSS'],
 		githubUrl: 'https://github.com/alex-voievudko/portfolio',
-		demoUrl: 'https://your_project_demo_link/',
+		demoUrl: 'https://alex-voievudko.github.io/portfolio',
 	},
 ]
