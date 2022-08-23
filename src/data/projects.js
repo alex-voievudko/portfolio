@@ -20,8 +20,9 @@ export const projectList = [
 	{
 		img: 'https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png',
 		title: 'Portfolio',
-		description: 'Ofcourse i made my own personal portfolio website.',
-		techStack: ['Reactjs', 'Css'],
+		description:
+			'This is my personal portfolio build with React and Tailwind Css',
+		techStack: ['React.js', 'Tailwind CSS'],
 		githubUrl: 'https://your_project_github_link',
 		demoUrl: 'https://your_project_demo_link/',
 	},
