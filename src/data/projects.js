@@ -18,12 +18,12 @@ export const projectList = [
 		demoUrl: 'https://630373690c37ff00a8b2348c--world-of-games.netlify.app/',
 	},
 	{
-		img: 'https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/portfolio.png',
+		img: 'https://raw.githubusercontent.com/alex-voievudko/portfolio/main/src/assets/Demo.gif',
 		title: 'Portfolio',
 		description:
 			'This is my personal portfolio build with React and Tailwind Css',
 		techStack: ['React.js', 'Tailwind CSS'],
-		githubUrl: 'https://your_project_github_link',
+		githubUrl: 'https://github.com/alex-voievudko/portfolio',
 		demoUrl: 'https://your_project_demo_link/',
 	},
 ]
