@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { ReactComponent as Logo } from '../assets/logo.svg'
+import resume from '../assets/Alex-Voievudko-Resume.pdf'
 import Button from './Button'
 import GithubLink from './GithubLink'
 import Navigation from './Navigation'
@@ -47,7 +48,7 @@ const Header = () => {
 			<Navigation />
 			<NavigationMobile isOpen={open} toggle={handleToggle} />
 			<div className='relative flex md:flex-grow basis-0 justify-end items-center gap-6 sm:gap-8'>
-				<Button variant='primary' size='small' link='#'>
+				<Button variant='primary' size='small' link={resume}>
 					Resume
 				</Button>
 				<GithubLink link='https://github.com/alex-voievudko' />

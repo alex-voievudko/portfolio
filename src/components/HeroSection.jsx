@@ -24,7 +24,7 @@ const HeroSection = () => {
 							I design and code beautifully simple things, and I love what I do.
 						</p>
 						<div className='flex flex-row justify-center md:justify-start gap-4 md:gap-6'>
-							<Button variant='primary' link={resume} traget='_blank'>
+							<Button variant='primary' link={resume}>
 								Resume
 							</Button>
 							<Button
